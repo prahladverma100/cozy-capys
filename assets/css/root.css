@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chewy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Cream+Soda&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&display=swap');
+
+:root {
+    /* font_size */
+    --fs_xsm: 14px;
+    --fs_sm: 16px;
+    --fs_md: 12px;
+    --fs_2md: 22px;
+    --fs_lg: 28px;
+    --fs_2lg: 31px;
+    --fs_xl: 43px;
+    --fs_xxl: 60px;
+    --fs_2xl: 69px;
+    --font_size: 36px;
+    --fs_20: 10px;
+
+    /* color */
+    --orange: #FF9300;
+    --red: #5BA72B;
+    --white: #fff;
+    --sky_blue: #4CBAFF;
+    --bg_sky: #4CBAFF;
+    --black: #565656;
+    --text-black: #354A55;
+    --green: #BFDF89;
+    --pink: #EEC4DC;
+    --text_black: #4D4D4D;
+    --text_green: #BFDF89;
+    --color_black: #000;
+
+    /*  font-weight */
+    --fw_400: 400;
+    --fw_700: 700;
+}
+
+/* 
+    font-weight */
+.fw_400 {
+    font-weight: var(--fw_400);
+}
+
+.fw_700 {
+    font-weight: var(--fw_700);
+}
+
+/* font_size */
+.fs_xsm {
+    font-size: var(--fs_xsm);
+}
+
+.fs_sm {
+    font-size: var(--fs_sm);
+}
+
+.fs_md {
+    font-size: var(--fs_md);
+}
+
+.fs_2md {
+    font-size: var(--fs_2md);
+}
+
+.fs_lg {
+    font-size: var(--fs_lg);
+}
+
+.fs_2lg {
+    font-size: var(--fs_2lg);
+}
+
+.fs_xl {
+    font-size: var(--fs_xl);
+}
+
+.fs_xxl {
+    font-size: var(--fs_xxl);
+}
+
+.fs_2xl {
+    font-size: var(--fs_2xl);
+}
+
+.font_size {
+    font-size: var(--font_size);
+}
+
+.fs_20 {
+    font-size: var(--fs_20);
+}
+
+
+/* color */
+.bg_sky {
+    background-color: var(--bg_sky);
+}
+
+.color_black {
+    color: var(--color_black);
+}
+
+.text_green {
+    color: var(--text_green);
+}
+
+.orange {
+    color: var(--orange);
+}
+
+.red {
+    color: var(--red);
+}
+
+.white {
+    color: var(--white);
+}
+
+.sky_blue {
+    color: var(--sky_blue);
+}
+
+.black {
+    color: var(--black);
+}
+
+.green {
+    color: var(--green);
+}
+
+.pink {
+    color: var(--pink);
+}
+
+.text_black {
+    color: var(--text_black);
+}
+
+
+.ff_Balsamiq {
+    font-family: "Balsamiq Sans";
+}
+
+.ff_Cherry_Bomb {
+    font-family: "Cherry Bomb One";
+}
+
+.ff_Cherry_Cream {
+    font-family: "Cherry Cream Soda";
+}
+
+.ff_Chewy {
+    font-family: "Chewy";
+}
+
+@media (min-width:576px) {
+    :root {
+        /* font_size */
+        --fs_xsm: 14px;
+        --fs_sm: 16px;
+        --fs_md: 14px;
+        --fs_2md: 22px;
+        --fs_lg: 28px;
+        --fs_2lg: 31px;
+        --fs_xl: 43px;
+        --fs_xxl: 60px;
+        --fs_2xl: 69px;
+        --font_size: 52px;
+        --fs_20: 14px;
+
+    }
+}
+
+@media (min-width:768px) {
+    :root {
+        /* font_size */
+        --fs_xsm: 14px;
+        --fs_sm: 16px;
+        --fs_md: 16px;
+        --fs_2md: 22px;
+        --fs_lg: 28px;
+        --fs_2lg: 31px;
+        --fs_xl: 43px;
+        --fs_xxl: 60px;
+        --fs_2xl: 69px;
+        --font_size: 52px;
+        --fs_20: 20px;
+
+    }
+}
+
+@media (min-width:992px) {
+    :root {
+        /* font_size */
+        --fs_xsm: 14px;
+        --fs_sm: 16px;
+        --fs_md: 18px;
+        --fs_2md: 22px;
+        --fs_lg: 28px;
+        --fs_2lg: 31px;
+        --fs_xl: 43px;
+        --fs_xxl: 60px;
+        --fs_2xl: 69px;
+        --font_size: 80px;
+        --fs_20: 20px;
+
+    }
+}
+
+@media (min-width:1200px) {
+    :root {
+        /* font_size */
+        --fs_xsm: 14px;
+        --fs_sm: 16px;
+        --fs_md: 18px;
+        --fs_2md: 22px;
+        --fs_lg: 28px;
+        --fs_2lg: 31px;
+        --fs_xl: 43px;
+        --fs_xxl: 60px;
+        --fs_2xl: 69px;
+        --font_size: 80px;
+        --fs_20: 20px;
+
+    }
+}
