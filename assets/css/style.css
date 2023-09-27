@@ -12,6 +12,25 @@
     width: 40% !important;
 }
 
+.nav_underline::after {
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: -9%;
+    height: 2px;
+    width: 0;
+    background-color: #fff;
+    transition: all 300ms;
+    margin: 0 auto;
+}
+
+
+
+.nav_underline:hover:after {
+    width: 100%;
+
+}
+
 .ms1 {
     margin-left: -5px;
 }
@@ -221,6 +240,7 @@
     right: 0;
     z-index: -1;
 }
+
 .pos34 {
     position: absolute;
     top: 0;
@@ -375,7 +395,7 @@
 .pos_ab {
     position: absolute;
     left: 0;
-    bottom: -16%;
+    bottom: -9%;
     z-index: 1;
 
 }
@@ -385,25 +405,16 @@
     padding-bottom: 80px;
 }
 
+.curser_pointer {
+    cursor: pointer;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.pos_21 {
+    position: absolute;
+    bottom: -14%;
+    z-index: -1;
+    right: 0;
+}
 
 @media (max-width: 992px) {
     .hero_bg_img {
@@ -489,7 +500,7 @@
     }
 
     .max_width3 {
-        max-width: 300px;
+        max-width: 100px;
     }
 
 
@@ -568,7 +579,7 @@
     }
 
     .max_width3 {
-        max-width: 300px;
+        max-width: 199px;
     }
 
 
@@ -643,6 +654,7 @@
     .max_width3 {
         max-width: 200px;
     }
+
     .pos1 {
         position: absolute;
         bottom: -14%;
@@ -746,7 +758,7 @@
     }
 
     .max_width3 {
-        max-width: 100px;
+        max-width: 335px;
     }
 
 
