@@ -155,7 +155,7 @@ span:hover svg path {
 
 .pos2 {
     position: absolute;
-    bottom: 16%;
+    bottom: 12%;
     left: 24%;
 }
 
@@ -342,6 +342,8 @@ span:hover svg path {
 .border_radis {
     border-radius: 15px !important;
     border: none !important;
+    max-width: 878px;
+    width: 100% !important;
 }
 
 .border_radis1 {
@@ -352,6 +354,11 @@ span:hover svg path {
 .accordion-button {
     background-color: transparent !important;
 }
+
+.widht2 {
+    width: 150px;
+}
+
 
 .accordion-button:focus {
     box-shadow: none !important;
@@ -367,11 +374,9 @@ span:hover svg path {
 .pos_ab2 {
     position: absolute;
     top: 25px;
-    left: 15%;
+    left: 1%;
     z-index: -1;
 }
-
-
 
 .shadow_p {
     text-shadow: 1px 4px 0px #F683C5;
@@ -412,15 +417,19 @@ span:hover svg path {
 }
 
 .pt100 {
-    padding-top: 123px;
+    padding-top: 80px;
 }
 
 .pos_ab {
     position: absolute;
     left: 0;
-    bottom: -9%;
+    bottom: -6%;
     z-index: 1;
 
+}
+
+.border-radius {
+    border-radius: 23px;
 }
 
 
@@ -509,6 +518,33 @@ span:hover svg path {
 
 }
 
+@media (max-width:769px) {
+    .pos-left {
+        position: absolute;
+        left: 0;
+        bottom: 9%;
+        z-index: -1;
+    }
+
+    .pos-right {
+        position: absolute;
+        right: 0;
+        bottom: 9%;
+        z-index: -1;
+    }
+
+    .pos-bottom {
+        position: absolute;
+        bottom: 11%;
+        left: 0;
+    }
+}
+
+@media (min-width:320px) {
+    .hdr {
+        min-height: 80vh !important;
+    }
+}
 
 @media (min-width:576px) {
     .widht1 {
@@ -525,6 +561,36 @@ span:hover svg path {
         bottom: 9%;
 
 
+    }
+
+    .pos_1 {
+        position: absolute;
+        bottom: 9%;
+        left: 10%;
+    }
+
+    .pos3 {
+        position: absolute;
+        bottom: 12%;
+        left: 57%;
+    }
+
+    .pos2 {
+        position: absolute;
+        bottom: 11%;
+        left: 24%;
+    }
+
+    .pos_1 {
+        position: absolute;
+        bottom: 12%;
+        left: 10%;
+    }
+
+    .pos4 {
+        position: absolute;
+        bottom: 13%;
+        left: 70%;
     }
 
     .height1 {
@@ -560,7 +626,7 @@ span:hover svg path {
 
     .pos-bottom {
         position: absolute;
-        bottom: 14%;
+        bottom: 10%;
         left: 0;
 
 
@@ -647,7 +713,7 @@ span:hover svg path {
 
     .pos-bottom {
         position: absolute;
-        bottom: 18%;
+        bottom: 11%;
         left: 0;
 
 
@@ -663,6 +729,10 @@ span:hover svg path {
     .pos-ab {
         position: absolute;
 
+    }
+
+    .widht2 {
+        width: 200px;
     }
 
     .position-absolute1 {
@@ -687,15 +757,28 @@ span:hover svg path {
         width: 63%;
     }
 
+    .widht2 {
+        width: 200px;
+    }
+
+
+    .pt100 {
+        padding-top: 123px;
+    }
+
+    .hdr {
+        min-height: 100vh;
+    }
+
     .position-absolute2 {
         position: absolute;
         bottom: 0;
         left: 0;
     }
 
-.pt119 {
-    padding-top: 119px;
-}
+    .pt119 {
+        padding-top: 119px;
+    }
 
     .position_absolute {
         position: absolute;
@@ -752,7 +835,7 @@ span:hover svg path {
 
     .pos-bottom {
         position: absolute;
-        bottom: 12%;
+        bottom: 11%;
         left: 0;
 
 
@@ -798,7 +881,11 @@ span:hover svg path {
     }
 
     .width2 {
-        width: 400px;
+        width: 300px;
+    }
+
+    .widht2 {
+        width: 250px;
     }
 
     .width_100 {
