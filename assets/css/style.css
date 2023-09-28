@@ -25,6 +25,28 @@
 }
 
 
+span:hover svg path {
+    fill: #5BA72B;
+}
+
+.pt119 {
+    padding-top: 1px;
+}
+
+.pos_bottom {
+    position: absolute;
+    bottom: 0;
+}
+
+.color {
+    background-color: #9ADBFC;
+}
+
+.z-index {
+    z-index: 9 !important;
+}
+
+
 
 .nav_underline:hover:after {
     width: 100%;
@@ -371,7 +393,8 @@
     content: '';
     width: 100%;
     height: 1px;
-    top: 90%;
+    bottom: 62px;
+    z-index: 1;
     background-color: #B18E5E;
 
 }
@@ -415,6 +438,11 @@
     z-index: -1;
     right: 0;
 }
+
+.fttr-img1 {
+    background: transparent !important;
+}
+
 
 @media (max-width: 992px) {
     .hero_bg_img {
@@ -499,6 +527,10 @@
 
     }
 
+    .height1 {
+        height: 100vh !important;
+    }
+
     .max_width3 {
         max-width: 100px;
     }
@@ -557,6 +589,13 @@
         width: 50%;
     }
 
+    .position-absolute2 {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+
+
 }
 
 @media (min-width:768px) {
@@ -565,6 +604,13 @@
         border-radius: 44px;
         border: none;
     }
+
+    .position-absolute2 {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+
 
     .pt89 {
         padding: 11px;
@@ -640,6 +686,16 @@
     .width {
         width: 63%;
     }
+
+    .position-absolute2 {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+
+.pt119 {
+    padding-top: 119px;
+}
 
     .position_absolute {
         position: absolute;
@@ -769,7 +825,7 @@
 
 @media (min-width:1400px) {
     .costum_container {
-        max-width: 1140px;
+        max-width: 1140px !important;
     }
 
     .border_radius {
