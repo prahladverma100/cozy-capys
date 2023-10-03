@@ -6,7 +6,24 @@
     list-style-type: none !important;
     text-decoration: none !important;
     box-sizing: border-box;
+    /* outline: #5BA72B 2px solid; */
 }
+
+/* section */
+.section1-mb {
+    margin-bottom: -27px;
+}
+
+.mb-11 {
+    margin-bottom: -11%;
+
+}
+
+.mb--2 {
+    margin-bottom: 3%;
+}
+
+/* sdjge */
 
 .width_100 {
     width: 40% !important;
@@ -358,6 +375,10 @@ span:hover svg path {
 .widht2 {
     width: 150px;
 }
+.mb--2 {
+    margin-bottom: -2%;
+
+}
 
 
 .accordion-button:focus {
@@ -446,6 +467,22 @@ span:hover svg path {
     bottom: -14%;
     z-index: -1;
     right: 0;
+}
+
+.right-tree {
+    position: absolute;
+    right: 0;
+    bottom: 2%;
+    z-index: 2;
+    width: 26%;
+}
+
+.left-tree {
+    position: absolute;
+    left: 0;
+    bottom: 3%;
+    z-index: 2;
+    width: 22%;
 }
 
 .fttr-img1 {
@@ -541,14 +578,34 @@ span:hover svg path {
 }
 
 @media (min-width:320px) {
-    .hdr {
-        min-height: 80vh !important;
-    }
+
+
 }
 
 @media (min-width:576px) {
     .widht1 {
         width: 200px;
+    }
+
+    .right-tree {
+        position: absolute;
+        right: 0;
+        bottom: 7%;
+        z-index: 2;
+        width: 26%;
+    }
+
+    .mb--2 {
+        margin-bottom: -2%;
+
+    }
+
+    .left-tree {
+        position: absolute;
+        left: 0;
+        bottom: 6%;
+        z-index: 2;
+        width: 22%;
     }
 
     .width2 {
@@ -671,11 +728,21 @@ span:hover svg path {
         border: none;
     }
 
+    .mb--2 {
+        margin-bottom: -2%;
+
+    }
+
     .position-absolute2 {
         position: absolute;
         bottom: 0;
         left: 0;
     }
+
+    .section1-mb {
+        margin-bottom: -43px;
+    }
+
 
 
     .pt89 {
@@ -764,6 +831,11 @@ span:hover svg path {
 
     .pt100 {
         padding-top: 123px;
+    }
+
+    .mb--2 {
+        margin-bottom: -2%;
+
     }
 
     .hdr {
@@ -884,6 +956,15 @@ span:hover svg path {
         width: 300px;
     }
 
+    .mb--2 {
+        margin-bottom: -2%;
+
+    }
+
+    .section1-mb {
+        margin-bottom: -75px;
+    }
+
     .widht2 {
         width: 250px;
     }
@@ -913,6 +994,11 @@ span:hover svg path {
 @media (min-width:1400px) {
     .costum_container {
         max-width: 1140px !important;
+    }
+
+    .mb--2 {
+        margin-bottom: -2%;
+
     }
 
     .border_radius {
