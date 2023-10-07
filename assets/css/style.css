@@ -41,6 +41,10 @@
     margin: 0 auto;
 }
 
+.nav_underline::after:hover {
+    width: 100%;
+}
+
 
 span:hover svg path {
     fill: #5BA72B;
@@ -284,14 +288,14 @@ span:hover svg path {
     position: absolute;
     top: 0;
     left: 0;
-
 }
 
+/* 
 .position-absolute2 {
     position: absolute;
     bottom: 0;
     left: 0;
-}
+} */
 
 
 
@@ -372,9 +376,16 @@ span:hover svg path {
     background-color: transparent !important;
 }
 
+.pos_real {
+    position: relative;
+    z-index: 10 !important;
+
+}
+
 .widht2 {
     width: 150px;
 }
+
 .mb--2 {
     margin-bottom: -2%;
 
@@ -472,16 +483,16 @@ span:hover svg path {
 .right-tree {
     position: absolute;
     right: 0;
-    bottom: 2%;
-    z-index: 2;
+    bottom: 7%;
+    z-index: 5;
     width: 26%;
 }
 
 .left-tree {
     position: absolute;
     left: 0;
-    bottom: 3%;
-    z-index: 2;
+    bottom: 7%;
+    z-index: 4;
     width: 22%;
 }
 
@@ -508,12 +519,11 @@ span:hover svg path {
         justify-content: center !important;
         background-color: #B6E5FE !important;
         width: 100% !important;
-        /* height: 100% !important; */
-        z-index: 4 !important;
+        z-index: 6 !important;
         transition: 800ms;
         height: 100% !important;
         gap: 50px !important;
-        width: 100% !important;
+        /* width: 100% !important; */
     }
 
     label[for="checkbox"] {
@@ -522,7 +532,7 @@ span:hover svg path {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        z-index: 5 !important;
+        z-index: 8 !important;
     }
 
     label[for="checkbox"]>span {
@@ -577,10 +587,7 @@ span:hover svg path {
     }
 }
 
-@media (min-width:320px) {
-
-
-}
+@media (min-width:320px) {}
 
 @media (min-width:576px) {
     .widht1 {
@@ -1007,9 +1014,5 @@ span:hover svg path {
         border: none;
     }
 
-
-    /* .box1 {
-
-    } */
 
 }
